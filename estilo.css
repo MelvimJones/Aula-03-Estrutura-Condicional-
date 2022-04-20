@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(226, 225, 225);
+    font-family: sans-serif;
+}
+.formulario{
+    background-color: aliceblue;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0px 1px 10px -5px rgb(0, 0, 0.2);
+}
+.formulario input:not([type=radio]){
+    display: block;
+    padding: 10px 10px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+.formulario button{
+    cursor: pointer;
+    display: block;
+    padding: 8px 25px;
+    background-color: rgb(146, 171, 255);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+}
+.formulario button:hover{
+    cursor: pointer;
+    display: block;
+    padding: 8px 25px;
+    background-color: rgb(230, 107, 6);
+    border: none;
+    border-radius: 20px;
+    color: rgb(19, 17, 17);
+    margin: auto;
+    margin-top: 20px;
+}
